@@ -17,7 +17,10 @@ export const Filter = ({onChange, value}) => {
                 boxShadow="shadowStats"
                 borderRadius="normal"
                 fontFamily="body"
-                color="text" type="text" value={value} onChange={onChange}></Box>
+                color="text"
+                type="text"
+                value={value}
+                onChange={onChange} />
         </Box>
     );
 }
