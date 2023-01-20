@@ -7,7 +7,6 @@ export const ContactForm = ({ onSubmit }) => {
 
     const handleChange = e => {
         const { name, value } = e.target;
-        console.log(e.target.value);
         switch (name) {
             case 'name':
                 setName(value);
